@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 const mongoose = require('mongoose');
 
 
-await mongoose.connect('mongodb+srv://mists3000:mongoDB6789@cluster006.5jl8s81.mongodb.net/todo');
+await mongoose.connect('');
 const schema =  mongoose.Schema;
 const ObjectId = schema.ObjectId;
 
